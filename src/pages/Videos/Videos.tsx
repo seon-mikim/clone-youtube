@@ -1,7 +1,8 @@
-const Videos = () => {
-  return (
-    <div>Videos</div>
-  )
-}
+import { useParams } from "react-router-dom";
 
-export default Videos
+const Videos = () => {
+  const { keyword } = useParams();
+  return <div>Videos {keyword ? `${keyword}` : ""}</div>;
+};
+
+export default Videos;
