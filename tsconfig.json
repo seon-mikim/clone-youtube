@@ -9,7 +9,7 @@
     /*path*/
     "baseUrl": ".",
     "paths": {
-      "@api/*": ["src/api/*"],
+      "@apis/*": ["src/apis/*"],
       "@assets/*": ["src/assets/*"],
       "@components/*": ["src/components/*"],
       "@constants/*": ["src/constants/*"],
