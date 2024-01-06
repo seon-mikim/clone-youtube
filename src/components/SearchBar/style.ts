@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 
 export const Form = styled.form`
-flex: 0 1 60%;
+flex: 0 1 732px;
 border: 1px solid #b8bbba;
 display: flex;
 border-radius: 40px;
