@@ -1,7 +1,9 @@
+
 import NotFound from "@pages/NotFound/NotFound";
 import Videos from "@pages/Videos/Videos";
-import App from "App";
 import { createBrowserRouter } from "react-router-dom";
+import App from "../App";
+
 
 export const Routers = createBrowserRouter([{
     path: '/',
