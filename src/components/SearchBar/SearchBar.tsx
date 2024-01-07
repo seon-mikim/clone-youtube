@@ -20,7 +20,7 @@ const SearchBar = () => {
       <S.SearchInput
         placeholder="검색"
         onChange={handleChange}
-        value={keyword}
+        value={search}
       />
       <S.SearchButton src={SearchIcon} alt="검색 아이콘" />
     </S.Form>
